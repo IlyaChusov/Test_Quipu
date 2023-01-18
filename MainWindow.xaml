@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_Quipu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Test_Quipu" Height="107" Width="368" ResizeMode="CanMinimize">
     <Grid>
-        
+        <ProgressBar x:Name="ProgressBar" HorizontalAlignment="Left" Height="20" Margin="10,38,0,0" VerticalAlignment="Top" Width="252"/>
+        <Button x:Name="SelectBut" Content="..." HorizontalAlignment="Left" Margin="319,10,0,0" VerticalAlignment="Top" Width="23" Height="23"/>
+        <TextBox x:Name="PathBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" AllowDrop="True"/>
+        <Button x:Name="ActionBut" Content="Go" HorizontalAlignment="Left" Margin="267,38,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
